@@ -5,19 +5,16 @@ export const styles = {
         width: "100%",
         alignItems: "center"
     },
-    
     logo: {
         width: 170,
         height: 50
     },
-
     quacs: {
-        borderRadius: 170 / 2,
         width: 170,
         height: 170,
-        alignItems: "center"
-    },
-
+        borderRadius: 170 / 2, // A metade da largura/altura para um círculo perfeito
+        alignItems: 'center', // Centraliza o conteúdo verticalmente (se necessário)
+      },
     titulo: {
         color: COLORS.dark_gray,
         fontSize: FONT_SIZE.md,

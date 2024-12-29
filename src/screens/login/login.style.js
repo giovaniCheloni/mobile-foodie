@@ -5,15 +5,16 @@ export const styles = {
         flex: 1,
         padding: 40,
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        backgroundColor: COLORS.white
     },
     form: {
         width: "100%",
-        marginBottom: 25
+        marginBottom: 35
     },
     formGroup: {
         width: "100%",
-        marginTop: 50,
+        marginTop: 60,
         marginBottom: 40
     },
     footer: {
