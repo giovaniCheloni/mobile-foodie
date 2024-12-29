@@ -7,6 +7,7 @@ export const styles = {
         marginTop: 10
     },
     logotipo: {
+        borderRadius: 5,
         width: 80,
         height: 80
     },
@@ -25,6 +26,8 @@ export const styles = {
     },
     favorito: {
         width: 30,
+        marginRight: 10,
+        marginTop: 5,
         height: 30
     }
 }
