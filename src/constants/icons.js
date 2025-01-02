@@ -10,7 +10,12 @@ import dados from "../assets/meus-dados.png";
 import logout from "../assets/logout.png";
 import quacs from "../assets/quacs.jpeg";
 
+import abaHome from "../assets/aba-home.png";
+import abafavorito from "../assets/aba-favorito.png";
+import abaPedido from "../assets/aba-pedidos.png";
+import abaPerfil from "../assets/aba-perfil.png";
+
 export default {
     back, remove, logo, cart, favoritoFull, empty,
-    endereco, more, dados, logout, quacs
+    endereco, more, dados, logout, quacs, abaHome, abafavorito, abaPedido, abaPerfil
 };
