@@ -11,7 +11,7 @@ export const styles = {
     },
     form: {
         width: "100%",
-        marginBottom: 35
+        marginBottom: 15
     },
     formHorizontal: {
         flexDirection: "row"

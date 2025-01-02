@@ -2,12 +2,11 @@ import { COLORS, FONT_SIZE } from "../../constants/theme"
 
 export const styles = {
     icone: {
-        width: 80,
-        height: 80
+        width: 65,
+        height: 65
     },
     categoria: {
-        paddingRight: 10,
-        padding: 10
+        paddingRight: 10
     },
     descricao: {
         fontSize: FONT_SIZE.xsm,

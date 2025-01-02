@@ -15,7 +15,7 @@ function Login(props) {
     }
 
     return <View style={styles.container}>
-        <Header texto="Acesse sua conta." />
+        <Header texto= "Adicione e-mail e senha para entrar." />
 
         <View style={styles.formGroup}>
             <View style={styles.form}>

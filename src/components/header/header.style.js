@@ -10,10 +10,10 @@ export const styles = {
         height: 50
     },
     quacs: {
+        borderRadius: 170 / 2,
         width: 170,
         height: 170,
-        borderRadius: 170 / 2, // A metade da largura/altura para um círculo perfeito
-        alignItems: 'center', // Centraliza o conteúdo verticalmente (se necessário)
+        alignItems: 'center',
       },
     titulo: {
         color: COLORS.dark_gray,

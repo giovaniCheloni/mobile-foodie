@@ -8,23 +8,18 @@ export const styles = {
     },
     headerBar: {
         height: 45,
-        paddingTop: 15,
-        marginBottom: 5,
         flexDirection: "row",
         justifyContent: "space-between"
     },
     logo: {
         width: 140,
-        height: 27,
-       
+        height: 27
     },
     cart: {
         width: 30,
-        height: 30,
-        
+        height: 30
     },
     busca: {
-        marginBottom: 10,
-        marginTop: 25
+        marginBottom: 10
     }
 }
