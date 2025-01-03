@@ -9,12 +9,6 @@ export const styles = {
         width: 170,
         height: 50
     },
-    quacs: {
-        borderRadius: 170 / 2,
-        width: 170,
-        height: 170,
-        alignItems: 'center',
-      },
     titulo: {
         color: COLORS.dark_gray,
         fontSize: FONT_SIZE.md,
