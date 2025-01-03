@@ -9,8 +9,9 @@ const Stack = createNativeStackNavigator();
 function RoutesAuth() {
     return <NavigationContainer>
 
-        <Stack.Navigator>
-
+        <Stack.Navigator
+        initialRouteName="principal"
+        >
             <Stack.Screen name="principal" component={Principal} options={{
                 headerShown: false
             }} />

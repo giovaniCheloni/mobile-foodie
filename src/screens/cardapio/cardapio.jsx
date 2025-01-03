@@ -16,7 +16,7 @@ function Cardapio(props) {
 
         <View style={styles.header}>
             <View style={styles.headerTextos}>
-                <Text style={styles.nome}>Nome do estabelecimento</Text>
+                <Text style={styles.nome}>{restaurante.nome}</Text>
                 <Text style={styles.taxa}>Taxa de entrega: R$ 5,00</Text>
             </View>
 
@@ -27,7 +27,7 @@ function Cardapio(props) {
 
             <View style={styles.location}>
                 <Image source={icons.location} style={styles.locationImg} />
-                <Text style={styles.endereco}>Avenida Brigadeiro Luis Antonio, 1250 - CJ 1651</Text>
+                <Text style={styles.endereco}>Rua Rui Barbosa, 512 - Paraiso - São Paulo - SP</Text>
             </View>
 
             {
