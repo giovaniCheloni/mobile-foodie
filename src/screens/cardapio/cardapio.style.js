@@ -17,8 +17,9 @@ export const styles = {
         left: 15
     },
     back: {
-        width: 40,
-        height: 40
+        marginTop: 25,
+        width: 50,
+        height: 50
     },
     header: {
         width: "100%",
