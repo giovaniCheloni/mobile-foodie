@@ -4,6 +4,7 @@ export const styles = {
     container: {
         flex: 1,
         backgroundColor: COLORS.white,
+        paddingTop: 40,
         paddingLeft: 20,
         paddingRight: 20,
         paddingBottom: 15
@@ -22,5 +23,8 @@ export const styles = {
         fontSize: FONT_SIZE.sm,
         color: COLORS.dark_gray,
         fontWeight: "bold"
+    },
+    conatinerBtn: {
+        marginTop: 10
     }
 }
